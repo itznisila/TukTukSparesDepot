@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a3683aa1-83be-420c-9f64-668c4a2a849d" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0000000003782346" />
+      <entry key="MS500" value="1.0130482487410684" />
+      <entry key="S2" value="1.3379777082570314" />
+      <entry key="S5" value="1.6479704827166668" />
+      <entry key="S10" value="1.8049661379075927" />
+      <entry key="S30" value="1.931278225324666" />
+      <entry key="S60" value="2.0102522977461765" />
+      <entry key="M2" value="2.2984017963526933" />
+      <entry key="M5" value="4.078908321888974" />
+      <entry key="M10" value="10.068131687021424" />
+      <entry key="M15" value="15.832669072420261" />
+      <entry key="M30" value="26.41146153336387" />
+      <entry key="H1" value="34.70077399748349" />
+      <entry key="H2" value="39.91263038798037" />
+      <entry key="H4" value="42.838073827972174" />
+      <entry key="D1" value="45.45578434555647" />
+      <entry key="W1" value="45.92182207453776" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="3.5371374544899697E-277" />
+      <entry key="S5" value="2.6270042463835193E-111" />
+      <entry key="S10" value="5.125430953962336E-56" />
+      <entry key="S30" value="3.714583532902657E-19" />
+      <entry key="S60" value="6.094738331464821E-10" />
+      <entry key="M2" value="2.468752383586662E-5" />
+      <entry key="M5" value="0.014354597283145538" />
+      <entry key="M10" value="0.11981067265959874" />
+      <entry key="M15" value="0.2430321175697075" />
+      <entry key="M30" value="0.49298287756240367" />
+      <entry key="H1" value="0.7021273941119258" />
+      <entry key="H2" value="0.8379304231927159" />
+      <entry key="H4" value="0.9153853959905175" />
+      <entry key="D1" value="0.985373011684531" />
+      <entry key="W1" value="0.9978972114739627" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.8350879197130374" />
+      <entry key="MS500" value="0.976925478972458" />
+      <entry key="S2" value="1.3242387310255628" />
+      <entry key="S5" value="1.6407001129725705" />
+      <entry key="S10" value="1.8008811897008647" />
+      <entry key="S30" value="1.9297959554385833" />
+      <entry key="S60" value="2.009472893216805" />
+      <entry key="M2" value="2.2977650086521186" />
+      <entry key="M5" value="4.081647018501098" />
+      <entry key="M10" value="10.151902508305186" />
+      <entry key="M15" value="16.030915652653213" />
+      <entry key="M30" value="26.86250763116062" />
+      <entry key="H1" value="35.37416294429131" />
+      <entry key="H2" value="40.733732865915265" />
+      <entry key="H4" value="43.74435305760373" />
+      <entry key="D1" value="46.439536241128074" />
+      <entry key="W1" value="46.919485065111246" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3GPPMmGVNSMZMMXtODLd9s8kQhg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Launcher.executor": "Run",
+    "Application.Launcher.java.executor": "Run",
+    "Application.Main.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "master",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Launcher.java" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="gui.Launcher" />
+      <module name="TukTukSparesDepot" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="TukTukSparesDepot" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="TukTukSparesDepot" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.24374.151" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.24374.151" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a3683aa1-83be-420c-9f64-668c4a2a849d" name="Changes" comment="" />
+      <created>1783870187676</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1783870187676</updated>
+      <workItem from="1783870188895" duration="7656000" />
+      <workItem from="1783878069201" duration="217000" />
+      <workItem from="1783878302843" duration="25000" />
+      <workItem from="1783878346243" duration="5220000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
