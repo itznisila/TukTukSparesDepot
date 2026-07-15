@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3683aa1-83be-420c-9f64-668c4a2a849d" name="Changes" comment="Added inventory CRUD and manual sort">
-      <change afterPath="$PROJECT_DIR$/src/main/java/logic/LowStockMonitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/logic/SearchFilter.java" afterDir="false" />
+    <list default="true" id="a3683aa1-83be-420c-9f64-668c4a2a849d" name="Changes" comment="Added filter search and low-stock monitoring">
+      <change afterPath="$PROJECT_DIR$/src/main/java/logic/Dealerselector.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,21 +46,21 @@
     <decayedCancelled>
       <entry key="MS100" value="1.0" />
       <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.000000000000054" />
-      <entry key="S5" value="1.0000076587345736" />
-      <entry key="S10" value="1.004551265211779" />
-      <entry key="S30" value="1.3403805220923397" />
-      <entry key="S60" value="2.0088738023202035" />
-      <entry key="M2" value="2.739008084325001" />
-      <entry key="M5" value="3.4118523244954844" />
-      <entry key="M10" value="3.6898549754162735" />
-      <entry key="M15" value="3.7894974640297057" />
-      <entry key="M30" value="3.8984381902588656" />
-      <entry key="H1" value="4.095762716554387" />
-      <entry key="H2" value="4.7523446224786925" />
-      <entry key="H4" value="6.3085196101517695" />
-      <entry key="D1" value="59.13681300507105" />
-      <entry key="W1" value="132.6701444564567" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0" />
+      <entry key="S10" value="1.0" />
+      <entry key="S30" value="1.0" />
+      <entry key="S60" value="1.0" />
+      <entry key="M2" value="1.0" />
+      <entry key="M5" value="1.0" />
+      <entry key="M10" value="1.0" />
+      <entry key="M15" value="1.0000000000000016" />
+      <entry key="M30" value="1.0000000943295684" />
+      <entry key="H1" value="1.0008223408434758" />
+      <entry key="H2" value="1.0853750685070376" />
+      <entry key="H4" value="1.9996079561258324" />
+      <entry key="D1" value="43.31461969913654" />
+      <entry key="W1" value="130.0552461354363" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -71,35 +70,35 @@
       <entry key="S10" value="0.0" />
       <entry key="S30" value="0.0" />
       <entry key="S60" value="0.0" />
-      <entry key="M2" value="1.0834985903289242E-298" />
-      <entry key="M5" value="6.515253830659927E-120" />
-      <entry key="M10" value="2.552499526084168E-60" />
-      <entry key="M15" value="1.867714312094519E-40" />
-      <entry key="M30" value="1.3666434830638738E-20" />
-      <entry key="H1" value="1.169224331913691E-10" />
-      <entry key="H2" value="1.0949695559487426E-5" />
-      <entry key="H4" value="0.003659002811819606" />
-      <entry key="D1" value="0.6536555267980177" />
-      <entry key="W1" value="1.701269524008143" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="3.1651403291921278E-170" />
+      <entry key="M10" value="1.7790841265078267E-85" />
+      <entry key="M15" value="3.1632315953825034E-57" />
+      <entry key="M30" value="5.624261516734282E-29" />
+      <entry key="H1" value="7.500720461095888E-15" />
+      <entry key="H2" value="8.770101351307302E-8" />
+      <entry key="H4" value="3.274643503971728E-4" />
+      <entry key="D1" value="0.43716879200380737" />
+      <entry key="W1" value="1.606260612227211" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.0908732823325194" />
-      <entry key="MS500" value="0.6189951454187228" />
-      <entry key="S2" value="0.886996305152163" />
-      <entry key="S5" value="0.9531711752091067" />
-      <entry key="S10" value="0.9799603738056012" />
-      <entry key="S30" value="1.30962454521138" />
-      <entry key="S60" value="1.9709052301115455" />
-      <entry key="M2" value="2.7076374204648017" />
-      <entry key="M5" value="3.3947273805467124" />
-      <entry key="M10" value="3.6803458654757826" />
-      <entry key="M15" value="3.7829317585302373" />
-      <entry key="M30" value="3.8950294885550454" />
-      <entry key="H1" value="4.093918940636956" />
-      <entry key="H2" value="4.751188008189599" />
-      <entry key="H4" value="6.311333836044661" />
-      <entry key="D1" value="59.78907849626017" />
-      <entry key="W1" value="134.37095671403142" />
+      <entry key="MS100" value="7.462404038647881E-5" />
+      <entry key="MS500" value="0.1494774745970155" />
+      <entry key="S2" value="0.6217902932079742" />
+      <entry key="S5" value="0.8269087266065971" />
+      <entry key="S10" value="0.909345218608751" />
+      <entry key="S30" value="0.9688196286600486" />
+      <entry key="S60" value="0.9842863550105978" />
+      <entry key="M2" value="0.9921120677678494" />
+      <entry key="M5" value="0.9968373291980751" />
+      <entry key="M10" value="0.9984174123071348" />
+      <entry key="M15" value="0.9989446630550816" />
+      <entry key="M30" value="0.9994722865522991" />
+      <entry key="H1" value="1.0005582829069228" />
+      <entry key="H2" value="1.0852337867472803" />
+      <entry key="H4" value="1.9997936422963385" />
+      <entry key="D1" value="43.75084763403947" />
+      <entry key="W1" value="131.66107340836274" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -175,7 +174,7 @@
       <workItem from="1783870188895" duration="7656000" />
       <workItem from="1783878069201" duration="217000" />
       <workItem from="1783878302843" duration="25000" />
-      <workItem from="1783878346243" duration="40720000" />
+      <workItem from="1783878346243" duration="45555000" />
     </task>
     <task id="LOCAL-00001" summary="Created basic files main.java">
       <option name="closed" value="true" />
@@ -217,7 +216,15 @@
       <option name="project" value="LOCAL" />
       <updated>1783968194785</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added filter search and low-stock monitoring">
+      <option name="closed" value="true" />
+      <created>1784050745149</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1784050745149</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,6 +236,7 @@
     <MESSAGE value="Added Dealer model class" />
     <MESSAGE value="Completed InventoryParser and DealerParser" />
     <MESSAGE value="Added inventory CRUD and manual sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added inventory CRUD and manual sort" />
+    <MESSAGE value="Added filter search and low-stock monitoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added filter search and low-stock monitoring" />
   </component>
 </project>
