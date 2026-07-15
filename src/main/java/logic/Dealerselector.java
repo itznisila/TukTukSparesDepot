@@ -8,7 +8,7 @@ import java.util.Random;
 public class Dealerselector {
     private Random random;
 
-    public DealerSelector() {
+    public Dealerselector() {
         this.random = new Random();
     }
 

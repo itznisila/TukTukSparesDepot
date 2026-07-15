@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3683aa1-83be-420c-9f64-668c4a2a849d" name="Changes" comment="Added filter search and low-stock monitoring">
-      <change afterPath="$PROJECT_DIR$/src/main/java/logic/Dealerselector.java" afterDir="false" />
+    <list default="true" id="a3683aa1-83be-420c-9f64-668c4a2a849d" name="Changes" comment="random dealer selection and location sort">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/logic/Dealerselector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logic/Dealerselector.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,15 +52,15 @@
       <entry key="S30" value="1.0" />
       <entry key="S60" value="1.0" />
       <entry key="M2" value="1.0" />
-      <entry key="M5" value="1.0" />
-      <entry key="M10" value="1.0" />
-      <entry key="M15" value="1.0000000000000016" />
-      <entry key="M30" value="1.0000000943295684" />
-      <entry key="H1" value="1.0008223408434758" />
-      <entry key="H2" value="1.0853750685070376" />
-      <entry key="H4" value="1.9996079561258324" />
-      <entry key="D1" value="43.31461969913654" />
-      <entry key="W1" value="130.0552461354363" />
+      <entry key="M5" value="1.0000000015672257" />
+      <entry key="M10" value="1.0000395882000597" />
+      <entry key="M15" value="1.0011615658559971" />
+      <entry key="M30" value="1.0340817557519717" />
+      <entry key="H1" value="1.1847642530873002" />
+      <entry key="H2" value="1.466348217517071" />
+      <entry key="H4" value="2.3107205119574714" />
+      <entry key="D1" value="41.370306402973235" />
+      <entry key="W1" value="129.75389650590526" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -71,34 +71,34 @@
       <entry key="S30" value="0.0" />
       <entry key="S60" value="0.0" />
       <entry key="M2" value="0.0" />
-      <entry key="M5" value="3.1651403291921278E-170" />
-      <entry key="M10" value="1.7790841265078267E-85" />
-      <entry key="M15" value="3.1632315953825034E-57" />
-      <entry key="M30" value="5.624261516734282E-29" />
-      <entry key="H1" value="7.500720461095888E-15" />
-      <entry key="H2" value="8.770101351307302E-8" />
-      <entry key="H4" value="3.274643503971728E-4" />
-      <entry key="D1" value="0.43716879200380737" />
-      <entry key="W1" value="1.606260612227211" />
+      <entry key="M5" value="4.960488900725684E-179" />
+      <entry key="M10" value="7.043073832301964E-90" />
+      <entry key="M15" value="3.674301815807317E-60" />
+      <entry key="M30" value="1.9168468921701703E-30" />
+      <entry key="H1" value="1.384726296620266E-15" />
+      <entry key="H2" value="3.7682099499963746E-8" />
+      <entry key="H4" value="2.1464919645148347E-4" />
+      <entry key="D1" value="0.4074522229584114" />
+      <entry key="W1" value="1.5901881605978827" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="7.462404038647881E-5" />
-      <entry key="MS500" value="0.1494774745970155" />
-      <entry key="S2" value="0.6217902932079742" />
-      <entry key="S5" value="0.8269087266065971" />
-      <entry key="S10" value="0.909345218608751" />
-      <entry key="S30" value="0.9688196286600486" />
-      <entry key="S60" value="0.9842863550105978" />
-      <entry key="M2" value="0.9921120677678494" />
-      <entry key="M5" value="0.9968373291980751" />
-      <entry key="M10" value="0.9984174123071348" />
-      <entry key="M15" value="0.9989446630550816" />
-      <entry key="M30" value="0.9994722865522991" />
-      <entry key="H1" value="1.0005582829069228" />
-      <entry key="H2" value="1.0852337867472803" />
-      <entry key="H4" value="1.9997936422963385" />
-      <entry key="D1" value="43.75084763403947" />
-      <entry key="W1" value="131.66107340836274" />
+      <entry key="MS100" value="2.7925218504822254E-6" />
+      <entry key="MS500" value="0.07748173124618665" />
+      <entry key="S2" value="0.5275939769909922" />
+      <entry key="S5" value="0.7743190278532205" />
+      <entry key="S10" value="0.8799539918957243" />
+      <entry key="S30" value="0.9582672708075362" />
+      <entry key="S60" value="0.9789112680971326" />
+      <entry key="M2" value="0.9893994481993269" />
+      <entry key="M5" value="0.9957462194719117" />
+      <entry key="M10" value="0.997910367846824" />
+      <entry key="M15" value="0.9997403973663777" />
+      <entry key="M30" value="1.0333535436060584" />
+      <entry key="H1" value="1.1843603298671508" />
+      <entry key="H2" value="1.466109910427938" />
+      <entry key="H4" value="2.3107534216134904" />
+      <entry key="D1" value="41.77686692216524" />
+      <entry key="W1" value="131.34365354874225" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -174,7 +174,7 @@
       <workItem from="1783870188895" duration="7656000" />
       <workItem from="1783878069201" duration="217000" />
       <workItem from="1783878302843" duration="25000" />
-      <workItem from="1783878346243" duration="45555000" />
+      <workItem from="1783878346243" duration="46976000" />
     </task>
     <task id="LOCAL-00001" summary="Created basic files main.java">
       <option name="closed" value="true" />
@@ -224,7 +224,15 @@
       <option name="project" value="LOCAL" />
       <updated>1784050745149</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="random dealer selection and location sort">
+      <option name="closed" value="true" />
+      <created>1784105058498</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1784105058498</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,6 +245,7 @@
     <MESSAGE value="Completed InventoryParser and DealerParser" />
     <MESSAGE value="Added inventory CRUD and manual sort" />
     <MESSAGE value="Added filter search and low-stock monitoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added filter search and low-stock monitoring" />
+    <MESSAGE value="random dealer selection and location sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="random dealer selection and location sort" />
   </component>
 </project>
